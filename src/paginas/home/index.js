@@ -2,6 +2,8 @@ import React from "react";
 import Topo from "../../compomentes/Topo";
 import Rodape from "../../compomentes/Rodape";
 
+import "./style.css"
+
 export default function Home() {
   return (
     <div>
