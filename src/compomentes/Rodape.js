@@ -3,7 +3,7 @@ import "./Rodape.css"
 export default function Rodape() {
   return (
     <footer>
-      <div>
+      <div className="limitar-secao container-logo-informacoes">
         <img src="assets/img/logo.png" alt="logomarca" />
         <div>
           <h3>ENDEREÇO</h3>
@@ -23,7 +23,7 @@ export default function Rodape() {
           <p>10:00 - 22:00</p>
         </div>
       </div>
-      <div>
+      <div className="limitar-secao direito-autoral">
         <p>Gelateria. Orgulhosamente desenvolvido por "nome do desenvolvedor"</p>
       </div>
     </footer>
