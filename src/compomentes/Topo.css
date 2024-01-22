@@ -3,8 +3,9 @@ header {
   width: 100%;
   padding: 10px 20px;
   position: fixed;
-  /* z-index: 1; */
+  z-index: 1;
   display: flex;
+
 }
 
 header div {
